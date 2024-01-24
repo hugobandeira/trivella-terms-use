@@ -1,0 +1,845 @@
+<html>
+
+<head>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+    <style type="text/css">
+        ol {
+            margin: 0;
+            padding: 0
+        }
+
+        table td,
+        table th {
+            padding: 0
+        }
+
+        .c0 {
+            color: #000000;
+            font-weight: 400;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 12pt;
+            font-family: "Arial";
+            font-style: normal
+        }
+
+        .c2 {
+            color: #000000;
+            font-weight: 700;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 12pt;
+            font-family: "Arial";
+            font-style: normal
+        }
+
+        .c6 {
+            -webkit-text-decoration-skip: none;
+            color: #000000;
+            font-weight: 700;
+            text-decoration: underline;
+            text-decoration-skip-ink: none;
+            font-size: 12pt;
+            font-family: "Arial"
+        }
+
+        .c1 {
+            padding-top: 0pt;
+            padding-bottom: 0pt;
+            line-height: 1.1500000000000001;
+            orphans: 2;
+            widows: 2;
+            text-align: justify
+        }
+
+        .c15 {
+            padding-top: 0pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            orphans: 2;
+            widows: 2;
+            text-align: center
+        }
+
+        .c3 {
+            color: #000000;
+            font-weight: 700;
+            text-decoration: none;
+            font-size: 12pt;
+            font-family: "Arial";
+            font-style: normal
+        }
+
+        .c13 {
+            padding-top: 0pt;
+            padding-bottom: 0pt;
+            line-height: 1.1500000000000001;
+            orphans: 2;
+            widows: 2;
+            text-align: center
+        }
+
+        .c16 {
+            color: #000000;
+            font-weight: 400;
+            vertical-align: baseline;
+            font-size: 10pt;
+            font-family: "Arial"
+        }
+
+        .c8 {
+            font-size: 12pt;
+            font-family: "Arial";
+            color: #000000;
+            font-weight: 700
+        }
+
+        .c11 {
+            -webkit-text-decoration-skip: none;
+            text-decoration: underline;
+            vertical-align: baseline;
+            text-decoration-skip-ink: none
+        }
+
+        .c5 {
+            font-size: 12pt;
+            font-family: "Arial";
+            color: #000000;
+            font-weight: 400
+        }
+
+        .c9 {
+            background-color: #ffffff;
+            max-width: 481.9pt;
+            padding: 56.7pt 56.7pt 82.3pt 56.7pt
+        }
+
+        .c12 {
+            -webkit-text-decoration-skip: none;
+            text-decoration: underline;
+            text-decoration-skip-ink: none
+        }
+
+        .c14 {
+            text-decoration: none
+        }
+
+        .c7 {
+            background-color: #ffff00
+        }
+
+        .c4 {
+            height: 12pt
+        }
+
+        .c10 {
+            font-style: normal
+        }
+
+        .title {
+            padding-top: 24pt;
+            color: #000000;
+            font-weight: 700;
+            font-size: 36pt;
+            padding-bottom: 6pt;
+            font-family: "Liberation Serif";
+            line-height: 1.0;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        .subtitle {
+            padding-top: 18pt;
+            color: #666666;
+            font-size: 24pt;
+            padding-bottom: 4pt;
+            font-family: "Georgia";
+            line-height: 1.0;
+            page-break-after: avoid;
+            font-style: italic;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        li {
+            color: #000000;
+            font-size: 12pt;
+            font-family: "Liberation Serif"
+        }
+
+        p {
+            margin: 0;
+            color: #000000;
+            font-size: 12pt;
+            font-family: "Liberation Serif"
+        }
+
+        h1 {
+            padding-top: 24pt;
+            color: #000000;
+            font-weight: 700;
+            font-size: 24pt;
+            padding-bottom: 6pt;
+            font-family: "Liberation Serif";
+            line-height: 1.0;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        h2 {
+            padding-top: 18pt;
+            color: #000000;
+            font-weight: 700;
+            font-size: 18pt;
+            padding-bottom: 4pt;
+            font-family: "Liberation Serif";
+            line-height: 1.0;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        h3 {
+            padding-top: 14pt;
+            color: #000000;
+            font-weight: 700;
+            font-size: 14pt;
+            padding-bottom: 4pt;
+            font-family: "Liberation Serif";
+            line-height: 1.0;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        h4 {
+            padding-top: 12pt;
+            color: #000000;
+            font-weight: 700;
+            font-size: 12pt;
+            padding-bottom: 2pt;
+            font-family: "Liberation Serif";
+            line-height: 1.0;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        h5 {
+            padding-top: 11pt;
+            color: #000000;
+            font-weight: 700;
+            font-size: 11pt;
+            padding-bottom: 2pt;
+            font-family: "Liberation Serif";
+            line-height: 1.0;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        h6 {
+            padding-top: 10pt;
+            color: #000000;
+            font-weight: 700;
+            font-size: 10pt;
+            padding-bottom: 2pt;
+            font-family: "Liberation Serif";
+            line-height: 1.0;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+    </style>
+</head>
+
+<body class="c9 doc-content">
+    <p class="c13"><span class="c2">TERMOS DE USO &ndash; TRIVELLA </span></p>
+    <p class="c1 c4"><span class="c0"></span></p>
+    <p class="c1 c4"><span class="c0"></span></p>
+    <p class="c1"><span class="c2">BEM-VINDOS AO TRIVELLA, UM APLICATIVO DEDICADO &Agrave; GEST&Atilde;O DE PARTIDAS DE
+            FUTEBOL.</span></p>
+    <p class="c1 c4"><span class="c2"></span></p>
+    <p class="c1"><span class="c2">ANTES DE UTILIZAR NOSSOS SERVI&Ccedil;OS, LEIA ATENTAMENTE OS TERMOS DE USO A
+            SEGUIR:</span></p>
+    <p class="c1 c4"><span class="c0"></span></p>
+    <p class="c1"><span class="c0">Estes Termos de Uso do Aplicativo Trivella (&ldquo;Termos&rdquo;) constituem um
+            contrato vinculante (&ldquo;Contrato&rdquo;) entre voc&ecirc; e o Microempreendedor Individual Jackson Hugo
+            Bandeira de Fran&ccedil;a, com sede na Rua Coronel Manoel Bandeira, n&ordm; 90, bairro Bacuri, na Cidade de
+            Imperatriz, no Estado do Maranh&atilde;o, CEP 65916-020, inscrito no CNPJ sob o n&ordm; 45.035.174/0001-28
+            (&ldquo;Desenvolvedor&rdquo;), regendo seu acesso aos aplicativos de celular, tablet, web ou de outro
+            dispositivo smart aplic&aacute;vel, e interfaces de programa do aplicativo Trivella
+            (&ldquo;Aplicativo&rdquo;, ou simplesmente &ldquo;Trivella&rdquo;) e todos os servi&ccedil;os relacionados
+            (coletivamente, &ldquo;Servi&ccedil;os do Trivella&rdquo;). O Aplicativo e os Servi&ccedil;os do Trivella
+            ser&atilde;o coletivamente referidos como a &ldquo;Plataforma Trivella&rdquo;.</span></p>
+    <p class="c1"><span class="c0">&nbsp;</span></p>
+    <p class="c1 c4"><span class="c0"></span></p>
+    <p class="c1"><span class="c0">O Trivella &eacute; uma aplica&ccedil;&atilde;o abrangente desenvolvida para
+            simplificar a organiza&ccedil;&atilde;o de partidas de futebol (peladas) entre amigos ou aqueles que desejam
+            participar de jogos informais. Com uma variedade de recursos, o Trivella visa n&atilde;o apenas facilitar a
+            gest&atilde;o desses grupos, mas tamb&eacute;m proporcionar uma experi&ecirc;ncia envolvente que motive e
+            inspire a pr&aacute;tica constante do esporte. Explore as diversas funcionalidades oferecidas pelo Trivella
+            para manter seu grupo ativo, motivado e desfrutando de momentos inesquec&iacute;veis no campo.</span></p>
+    <p class="c1 c4"><span class="c0"></span></p>
+    <p class="c1"><span class="c0">&nbsp;</span></p>
+    <p class="c1"><span class="c0">Recomendamos que leia atentamente este documento, e que visite periodicamente esta
+            se&ccedil;&atilde;o para manter-se informado acerca de qualquer mudan&ccedil;a nos servi&ccedil;os. Nos
+            comprometemos a avis&aacute;-lo sempre que poss&iacute;vel, por interm&eacute;dio do pr&oacute;prio
+            aplicativo ou por nossos canais na web e em redes ou servi&ccedil;os sempre que houver alguma
+            modifica&ccedil;&atilde;o nesse documento, mas &eacute; de sua inteira responsabilidade manter-se informado
+            acerca disto. &nbsp;Sabemos que a leitura de Termos de Uso e demais pol&iacute;ticas pode ser cansativa,
+            por&eacute;m, como dito, &eacute; de sua inteira responsabilidade faz&ecirc;-los. Procuramos deix&aacute;-lo
+            mais agrad&aacute;vel para que voc&ecirc; o leia e entenda, e, se alguma d&uacute;vida ainda persistir ao
+            final, basta entrar em contato conosco atrav&eacute;s do Fale Conosco, disponibilizado no Aplicativo. &nbsp;
+            &nbsp; </span></p>
+    <p class="c1"><span class="c0">&nbsp;</span></p>
+    <p class="c1"><span class="c0">O Trivella n&atilde;o &eacute; vinculado, endossado ou patrocinado de qualquer forma
+            por nenhuma empresa propriet&aacute;ria das lojas de download/venda de aplicativos (como por exemplo, APP
+            Store&trade; e GooglePlay&trade;). Tais empresas apenas respondem pelo v&iacute;nculo, com o Trivella
+            estabelecidos em seus pr&oacute;prios termos e pol&iacute;ticas. &nbsp; &nbsp;</span></p>
+    <p class="c1"><span class="c0">&nbsp;</span></p>
+    <p class="c1"><span class="c0">O Trivella n&atilde;o participa como parte em nenhuma das intera&ccedil;&otilde;es,
+            arenas, times, partidas, competi&ccedil;&otilde;es, jogadores ou prestadores de servi&ccedil;o constantes no
+            Trivella, salvo quando especificamente se identifique como tal, n&atilde;o possuindo qualquer
+            responsabilidade com rela&ccedil;&atilde;o a eles e tampouco na contrata&ccedil;&atilde;o de qualquer outro
+            servi&ccedil;o correlato. &nbsp; &nbsp; </span></p>
+    <p class="c1"><span class="c0">&nbsp;</span></p>
+    <p class="c1"><span class="c0">Quando estes Termos mencionarem &ldquo;n&oacute;s&rdquo;, &ldquo;nos&rdquo;,
+            &ldquo;nosso&rdquo;, e outras varia&ccedil;&otilde;es gramaticais da primeira pessoa do plural, eles se
+            referem ao Desenvolvedor, sociedade com a qual voc&ecirc; est&aacute; firmando o Contrato. Por sua vez,
+            quando estes Termos mencionarem &ldquo;voc&ecirc;&rdquo;, &ldquo;seu&rdquo;, &ldquo;seus&rdquo;, e outras
+            varia&ccedil;&otilde;es gramaticais da terceira pessoa do singular ou plural, eles se referem ao
+            Usu&aacute;rio (conforme abaixo definido), a partir do momento do aceite destes Termos em decorr&ecirc;ncia
+            do Contrato firmado com o Desenvolvedor.</span></p>
+    <p class="c1 c4"><span class="c0"></span></p>
+    <p class="c1"><span class="c2">1. CONDI&Ccedil;&Otilde;ES GERAIS</span></p>
+    <p class="c1 c4"><span class="c0"></span></p>
+    <p class="c1"><span class="c0">1.1. &nbsp; &nbsp;O Aplicativo tem por finalidade auxiliar na
+            organiza&ccedil;&atilde;o de grupos de futebol de na &nbsp;intermedia&ccedil;&atilde;o de
+            informa&ccedil;&otilde;es entre os usu&aacute;rios. O Aplicativo tem por finalidade, ainda, permitir que
+            Usu&aacute;rios se conectem, encontrem e convidem outros Usu&aacute;rios para promo&ccedil;&otilde;es de
+            partidas esportivas amadoras (&ldquo;Partidas&rdquo;).</span></p>
+    <p class="c1 c4"><span class="c0"></span></p>
+    <p class="c1"><span class="c0">1.2 &nbsp; &nbsp;Como o fornecedor da Plataforma Trivella, o Desenvolvedor n&atilde;o
+            &eacute; propriet&aacute;rio, n&atilde;o cria, vende, revende, fornece, controla, gerencia, oferece, entrega
+            ou abastece qualquer an&uacute;ncio de Loca&ccedil;&atilde;o, Partidas ou servi&ccedil;os conexos.</span>
+    </p>
+    <p class="c1 c4"><span class="c0 c7"></span></p>
+    <p class="c1 c4"><span class="c0"></span></p>
+    <p class="c1"><span class="c5">1.3 &nbsp;Devido &agrave; natureza da internet, o Desenvolvedor n&atilde;o pode
+            garantir uma disponibilidade e acessibilidade ininterruptas e cont&iacute;nuas da Plataforma Trivella. O
+            Desenvolvedor pode restringir a disponibilidade da Plataforma Trivella ou de certas &aacute;reas ou recursos
+            a ela relacionados, caso seja necess&aacute;rio considerando os limites de capacidade, a seguran&ccedil;a ou
+            a integridade de nossos servidores, ou para realizar medidas de manuten&ccedil;&atilde;o que garantam o
+            devido funcionamento ou o aprimoramento da Plataforma Trivella.</span><span class="c6">&nbsp;O Desenvolvedor
+            pode melhorar e alterar a Plataforma Trivella e introduzir novos servi&ccedil;os de tempos em tempos.</span>
+    </p>
+    <p class="c1 c4"><span class="c0"></span></p>
+    <p class="c1"><span class="c0">1.4 &nbsp; O Membro deve fazer seu cadastro uma &uacute;nica vez, fornecendo, por
+            login social, os seguintes dados obrigat&oacute;rios: Nome completo, telefone de contato e e-mail. Ao
+            cadastrar-se, fornecer&aacute; informa&ccedil;&otilde;es para defini&ccedil;&atilde;o de seu perfil, o qual
+            ser&aacute; acess&iacute;vel por todos os usu&aacute;rios da Plataforma Trivella.</span></p>
+    <p class="c1 c4"><span class="c0 c7"></span></p>
+    <p class="c1"><span class="c2">2. QUEM PODE UTILIZAR O TRIVELLA</span></p>
+    <p class="c1 c4"><span class="c0"></span></p>
+    <p class="c1"><span class="c0">2.1 &nbsp; &nbsp;Em princ&iacute;pio, qualquer pessoa f&iacute;sica que esteja
+            interessada em utilizar os Servi&ccedil;os do Trivella pode fazer o download dele em uma das lojas
+            autorizadas para tanto, desde que aceite estes Termos, podem usufruir dos Servi&ccedil;os disponibilizados
+            no Aplicativo. &nbsp; &nbsp; &nbsp;</span></p>
+    <p class="c1"><span class="c0">&nbsp;</span></p>
+    <p class="c1"><span class="c0">2.2 &nbsp; &nbsp;Contudo, algumas pessoas n&atilde;o podem utilizar os
+            Servi&ccedil;os do Trivella, como por exemplo pessoas absolutamente incapazes, na forma da
+            legisla&ccedil;&atilde;o brasileira vigente. Menores de 18 anos podem utilizar os servi&ccedil;os com
+            restri&ccedil;&otilde;es, devendo ser assistidos por seus respons&aacute;veis legais. Assim, caso voc&ecirc;
+            encontre-se em uma dessas condi&ccedil;&otilde;es, pedimos que por favor saia deste Aplicativo, adapte-se ao
+            estipulado aqui ou simplesmente n&atilde;o utilize os Servi&ccedil;os do Trivella. &nbsp; &nbsp;
+            &nbsp;</span></p>
+    <p class="c1"><span class="c0">&nbsp;</span></p>
+    <p class="c1"><span class="c0">2.3 &nbsp; &nbsp;O Desenvolvedor poder&aacute;, por sua iniciativa e a qualquer
+            tempo, encerrar os servi&ccedil;os disponibilizados neste Aplicativo para qualquer Membro, sempre que julgar
+            necess&aacute;rio para sua seguran&ccedil;a jur&iacute;dica e pessoal e/ou visando a seguran&ccedil;a de
+            terceiros. &nbsp; &nbsp; </span></p>
+    <p class="c1 c4"><span class="c0 c7"></span></p>
+    <p class="c1 c4"><span class="c2"></span></p>
+    <p class="c1"><span class="c2">3. QUE SERVI&Ccedil;OS O TRIVELLA OFERECE?</span></p>
+    <p class="c1 c4"><span class="c0"></span></p>
+    <p class="c1"><span class="c0">3.1 &nbsp; &nbsp;O Trivella promove a intera&ccedil;&atilde;o entre Usu&aacute;rios,
+            para a promo&ccedil;&atilde;o de Partidas, disponibilizando informa&ccedil;&otilde;es, ferramentas,
+            softwares, facilidades e outros recursos, gr&aacute;ficos ou n&atilde;o, como forma de facilitar a
+            intera&ccedil;&atilde;o entre os Membros para a finalidade de realiza&ccedil;&atilde;o de Partidas.</span>
+    </p>
+    <p class="c1 c4"><span class="c0"></span></p>
+    <p class="c1"><span class="c0">3.2 &nbsp; &nbsp;Como dito anteriormente, a interatividade &eacute; recreativa e faz
+            parte direta do objetivo do Trivella, como bem descrito no pre&acirc;mbulo deste documento. Partidas
+            profissionais n&atilde;o devem ser promovidas por meio do Aplicativo. &nbsp;</span></p>
+    <p class="c1"><span class="c0">&nbsp; &nbsp;</span></p>
+    <p class="c1"><span class="c0">3.3 &nbsp; &nbsp;O Trivella visa auxiliar na organiza&ccedil;&atilde;o e
+            administra&ccedil;&atilde;o de grupos de futebol. O Usu&aacute;rio, ao realizar seu cadastro no Trivella,
+            poder&aacute; criar ou participar de grupos de futebol, adicionar amigos a partir de seus contatos em seu
+            aparelho de conex&atilde;o &agrave; internet m&oacute;vel, criar e ofertar Partidas convidando todos seus
+            contatos/amigos ou apenas alguns, amigos de amigos ou deixar p&uacute;blica a possibilidade de terceiros
+            participarem de suas partidas.</span></p>
+    <p class="c1 c4"><span class="c2"></span></p>
+    <p class="c1"><span class="c8">4. </span><span class="c8 c10">RESPONSABILIDADES E ACESSO AOS SERVI&Ccedil;OS</span>
+    </p>
+    <p class="c1 c4"><span class="c0"></span></p>
+    <p class="c1"><span class="c0">4.1 O DESENVOLVEDOR N&Atilde;O &Eacute; RESPONS&Aacute;VEL POR QUALQUER FALHA NOS
+            SERVI&Ccedil;OS A SEREM PRESTADOS POR TERCEIROS, INCLUINDO MAS N&Atilde;O SE LIMITANDO A PROVEDORES DE
+            ACESSO &Agrave; INTERNET E CONEX&Otilde;ES DE BANDA LARGA.</span></p>
+    <p class="c1 c4"><span class="c0"></span></p>
+    <p class="c1"><span class="c0">4.2 O Trivella solicitar&aacute; acesso aos contatos de seu aparelho mobile e
+            &nbsp;solicitar&aacute; o envio de notifica&ccedil;&otilde;es pelo sistema push. Tais
+            solicita&ccedil;&otilde;es ser&atilde;o necess&aacute;rias para que os Servi&ccedil;os do Trivella funcionem
+            perfeitamente e em sua plenitude no aparelho m&oacute;vel do Usu&aacute;rio.</span></p>
+    <p class="c1 c4"><span class="c0"></span></p>
+    <p class="c1"><span class="c0">4.3 &nbsp;Os Servi&ccedil;os do Trivella aqui descritos obedecer&atilde;o a este
+            documento e &agrave; Pol&iacute;tica de Privacidade do Trivella, que tamb&eacute;m indicar&aacute; a forma
+            com que utilizamos os dados recebidos ou requeridos de seu aparelho m&oacute;vel, motivo pelo qual, desde
+            j&aacute;, indicamos a leitura.</span></p>
+    <p class="c1"><span class="c0">&nbsp;</span></p>
+    <p class="c1"><span class="c0">4.4 &nbsp; Os Servi&ccedil;os do Trivella, s&atilde;o disponibilizados para seu uso
+            pessoal e n&atilde;o comercial. VOC&Ecirc; RECONHECE QUE O DESENVOLVEDOR N&Atilde;O &Eacute; FORNECEDOR DE
+            SERVI&Ccedil;OS, N&Atilde;O PRESTA SERVI&Ccedil;OS DE LOCA&Ccedil;&Atilde;O DE ESPA&Ccedil;OS, RESERVAS,
+            GOLEIROS, JU&Iacute;ZES OU AFINS. &nbsp;</span></p>
+    <p class="c1 c4"><span class="c0"></span></p>
+    <p class="c1"><span class="c8">5. </span><span class="c8 c10">RELA&Ccedil;&Atilde;O COM PRESTADORES TERCEIROS
+        </span></p>
+    <p class="c1 c4"><span class="c0"></span></p>
+    <p class="c1"><span class="c0">5.1 &nbsp;Os Servi&ccedil;os do Trivella poder&atilde;o ser disponibilizados e
+            acessados em conex&atilde;o com servi&ccedil;os e conte&uacute;do de terceiros(as) (inclusive publicidade)
+            que o Trivella n&atilde;o controlar&aacute;. VOC&Ecirc; RECONHECE QUE TERMOS DE USO E POL&Iacute;TICAS DE
+            PRIVACIDADE DIFERENTES PODER&Atilde;O SER APLIC&Aacute;VEIS AO USO DESSES SERVI&Ccedil;OS E CONTE&Uacute;DO
+            DE TERCEIROS(AS). O TRIVELLA N&Atilde;O ENDOSSA ESSES SERVI&Ccedil;OS E CONTE&Uacute;DO DE TERCEIROS(AS) E O
+            TRIVELLA N&Atilde;O SER&Aacute;, EM HIP&Oacute;TESE ALGUMA, RESPONS&Aacute;VEL POR NENHUM PRODUTO OU
+            SERVI&Ccedil;O DESSES(AS) TERCEIROS(AS). Al&eacute;m disto, Apple Inc., Google, Inc., e/ou suas
+            subsidi&aacute;rias e afiliadas internacionais ser&atilde;o terceiros(as) benefici&aacute;rios(as) deste
+            Contrato, caso voc&ecirc; acesse os Servi&ccedil;os do TRIVELLA usando aplicativos desenvolvidos para
+            dispositivos m&oacute;veis baseados em Apple iOS ou Android, respectivamente. Esses(as) terceiros(as)
+            benefici&aacute;rios(as) n&atilde;o s&atilde;o partes deste Contrato e n&atilde;o s&atilde;o
+            respons&aacute;veis pela presta&ccedil;&atilde;o dos Servi&ccedil;os ou por qualquer forma de suporte aos
+            Servi&ccedil;os. Seu acesso aos Servi&ccedil;os usando esses dispositivos est&aacute; sujeito &agrave;s
+            condi&ccedil;&otilde;es estabelecidas nos termos de servi&ccedil;os dos respectivos terceiros(as)
+            benefici&aacute;rios(as). &nbsp; &nbsp; </span></p>
+    <p class="c1 c4"><span class="c0"></span></p>
+    <p class="c1"><span class="c8">6. </span><span class="c8 c10">IDADE E REGISTRO DE CONTA NO TRIVELLA</span></p>
+    <p class="c1 c4"><span class="c2"></span></p>
+    <p class="c1"><span class="c0">6.1 &nbsp; Para utilizar os Servi&ccedil;os do TRIVELLA, voc&ecirc; deve registrar-se
+            e manter uma conta pessoal de usu&aacute;rio de servi&ccedil;os (&ldquo;Conta&rdquo;). Voc&ecirc; deve ter
+            pelo menos 18 anos para abrir uma Conta ou estar assistido de seu(s) respons&aacute;vel(is) legal(is). O
+            registro de uma Conta exige que voc&ecirc; apresente ao TRIVELLA certas informa&ccedil;&otilde;es pessoais,
+            tais como seu nome, endere&ccedil;o, e-mail, n&uacute;mero de telefone celular e idade e um m&eacute;todo de
+            pagamento v&aacute;lido, caso o usu&aacute;rio realize uma assinatura. Voc&ecirc; concorda em manter
+            informa&ccedil;&otilde;es corretas, completas e atualizadas em sua Conta. Se voc&ecirc; n&atilde;o mantiver
+            informa&ccedil;&otilde;es corretas, completas e atualizadas em sua Conta, inclusive se o m&eacute;todo de
+            pagamento informado for inv&aacute;lido ou expirado, voc&ecirc; poder&aacute; ficar impossibilitado(a) de
+            acessar e usar o TRIVELLA. Voc&ecirc; &eacute; respons&aacute;vel por todas as atividades realizadas na sua
+            Conta e concorda em manter sempre a seguran&ccedil;a e o sigilo do nome de usu&aacute;rio e senha da sua
+            Conta. A menos que de outra forma permitido pelo Trivella por escrito, voc&ecirc; poder&aacute; manter
+            apenas uma Conta. &nbsp; &nbsp;</span></p>
+    <p class="c1"><span class="c0">&nbsp;</span></p>
+    <p class="c1 c4"><span class="c2"></span></p>
+    <p class="c1"><span class="c0">6.2 O Aplicativo n&atilde;o est&aacute; dispon&iacute;vel para uso para
+            indiv&iacute;duos menores de 18 anos que n&atilde;o sejam assistidos por seu(s) respons&aacute;vel(is)
+            legal(is). Voc&ecirc; n&atilde;o poder&aacute; autorizar terceiros(as) a usar sua Conta. Voc&ecirc;
+            n&atilde;o poder&aacute; ceder, nem de qualquer outro modo transferir, sua Conta a nenhuma outra pessoa.
+            Voc&ecirc; concorda em cumprir todas as leis aplic&aacute;veis quando usar os Servi&ccedil;os do Trivella e
+            que somente poder&aacute; usar os Servi&ccedil;os do Trivella para finalidades leg&iacute;timas. Voc&ecirc;
+            n&atilde;o poder&aacute;, quando usar os Servi&ccedil;os do Trivella, causar transtorno, aborrecimento,
+            inconveniente ou danos &agrave; propriedade dos Prestadores Terceiros ou de qualquer outro terceiro. Em
+            determinadas situa&ccedil;&otilde;es, voc&ecirc; poder&aacute; ser solicitado(a) a fornecer comprovante de
+            identidade para acessar ou usar os Servi&ccedil;os, e concorda que poder&aacute; ter seu acesso ou uso do
+            Aplicativo negado caso voc&ecirc; se recuse a fornecer comprovante de identidade.</span></p>
+    <p class="c1"><span class="c0">&nbsp;</span></p>
+    <p class="c1 c4"><span class="c0 c7"></span></p>
+    <p class="c1 c4"><span class="c0 c7"></span></p>
+    <p class="c1"><span class="c2">7. RECUSA DE GARANTIA</span></p>
+    <p class="c1"><span class="c0">&nbsp; &nbsp;</span></p>
+    <p class="c1"><span class="c5">7.1 &nbsp; &nbsp;OS SERVI&Ccedil;OS DO TRIVELLA S&Atilde;O PRESTADOS &ldquo;NO
+            ESTADO&rdquo; E &ldquo;COMO DISPON&Iacute;VEIS&rdquo;, </span><span class="c5 c10">O QUE SIGNIFICA QUE A
+            PLATAFORMA &Eacute; OFERECIDA NA CONDI&Ccedil;&Atilde;O EM QUE SE ENCONTRA, SEM GARANTIAS ESPEC&Iacute;FICAS
+            DE DESEMPENHO OU DISPONIBILIDADE CONSTANTE.</span><span class="c0">&nbsp;EXCETO POR AQUELAS
+            DECLARA&Ccedil;&Otilde;ES E GARANTIAS EXPRESSAMENTE PRESTADAS NESTES TERMOS, O DESENVOLVEDOR N&Atilde;O
+            PRESTA NENHUMA DECLARA&Ccedil;&Atilde;O OU GARANTIA, INCLUSIVE EVENTUAIS GARANTIAS IMPL&Iacute;CITAS.
+            ADEMAIS, O DESENVOLVEDOR N&Atilde;O FAZ NENHUMA DECLARA&Ccedil;&Atilde;O NEM D&Aacute; GARANTIA QUE OS
+            SERVI&Ccedil;OS DO TRIVELLA SER&Atilde;O ININTERRUPTOS OU LIVRES DE ERROS. &nbsp;VOC&Ecirc; CONCORDA QUE
+            TODO O RISCO DECORRENTE DO USO DOS SERVI&Ccedil;OS DO TRIVELLA E DE QUALQUER SERVI&Ccedil;O OU BEM
+            SOLICITADO POR MEIO DA TECNOLOGIA SER&Aacute; SEMPRE SEU NA M&Aacute;XIMA MEDIDA PERMITIDA PELA LEI
+            APLIC&Aacute;VEL.</span></p>
+    <p class="c1 c4"><span class="c0"></span></p>
+    <p class="c1 c4"><span class="c2"></span></p>
+    <p class="c1"><span class="c2">8. LIMITA&Ccedil;&Atilde;O DE RESPONSABILIDADE</span></p>
+    <p class="c1"><span class="c0">&nbsp; &nbsp; </span></p>
+    <p class="c1"><span class="c5">8.1 &nbsp; O DESENVOLVEDOR N&Atilde;O SER&Aacute; RESPONS&Aacute;VEL POR QUAISQUER
+            DANOS, DIRETOS OU INDIRETOS, INCLUSIVE LUCROS CESSANTES, PERDA DE DADOS, PERDA DE FUNDO DE COM&Eacute;RCIO,
+            INTERRUP&Ccedil;&Atilde;O DO SERVI&Ccedil;O, DANOS EM COMPUTADOR OU FALHA NO SISTEMA, CUSTO DE
+            SUBSTITUI&Ccedil;&Atilde;O DE PRODUTOS OU SERVI&Ccedil;OS, DANOS MORAIS OU PATRIMONIAIS RELACIONADOS,
+            ASSOCIADOS OU DECORRENTES DE QUALQUER USO DOS SERVI&Ccedil;OS DO TRIVELLA EXCETO PELOS DANOS DIRETOS
+            CAUSADOS POR CONSEQU&Ecirc;NCIA DE DOLO OU CULPA POR PARTE DO DESENVOLVEDOR E LIMITADO AO VALOR DO
+            PRE&Ccedil;O. </span><span class="c8">O DESENVOLVEDOR N&Atilde;O SER&Aacute; RESPONS&Aacute;VEL POR NENHUM
+            DANO, OBRIGA&Ccedil;&Atilde;O OU PREJU&Iacute;ZO DECORRENTE:</span><span class="c5">&nbsp;(i) DO USO DOS
+            SERVI&Ccedil;OS DO TRIVELLA OU SUA INCAPACIDADE DE ACESSAR OU USAR OS SERVI&Ccedil;OS DO TRIVELLA; (ii) O
+            DESENVOLVEDOR N&Atilde;O SER&Aacute; RESPONS&Aacute;VEL POR ATRASOS OU FALHAS DECORRENTES DE CAUSAS FORA DO
+            CONTROLE DO DESENVOLVEDOR; (iii) QUALQUER CONTATO OU RELA&Ccedil;&Atilde;O OU NEG&Oacute;CIO IMORAL, ILEGAL
+            OU ANTI&Eacute;TICO REALIZADO ENTRE OS MEMBROS, SEJA POR MEIO DE COMUNICA&Ccedil;&Atilde;O NO PR&Oacute;PRIO
+            APLICATIVO, SEJA POR CONTATO TELEF&Ocirc;NICO, OUTRO MEIO OU PESSOALMENTE EM OUTRAS OCASI&Otilde;ES.; (iv)
+        </span><span class="c5 c10">O DESENVOLVEDOR N&Atilde;O ASSUME RESPONSABILIDADE POR DANOS DECORRENTES DE
+            CONTE&Uacute;DOS PUBLICIT&Aacute;RIOS VEICULADOS NO APLICATIVO. QUALQUER RELA&Ccedil;&Atilde;O,
+            TRANSA&Ccedil;&Atilde;O OU INTERA&Ccedil;&Atilde;O ENTRE USU&Aacute;RIOS E ANUNCIANTES &Eacute; DE
+            RESPONSABILIDADE EXCLUSIVA DAS PARTES ENVOLVIDAS. O USU&Aacute;RIO CONCORDA QUE O DESENVOLVEDOR N&Atilde;O
+            SER&Aacute; RESPONS&Aacute;VEL POR QUALQUER PREJU&Iacute;ZO OU DANO DECORRENTE DE TAIS
+            INTERA&Ccedil;&Otilde;ES, ISENTANDO O DESENVOLVEDOR DE QUALQUER RESPONSABILIDADE NESSE CONTEXTO.</span></p>
+    <p class="c1 c4"><span class="c0"></span></p>
+    <p class="c1"><span class="c0">8.2 &nbsp; &nbsp;AS LIMITA&Ccedil;&Otilde;ES E RECUSAS DE GARANTIAS E
+            RESPONSABILIDADES CONTIDAS NESTA CL&Aacute;USULA N&Atilde;O POSSUEM O OBJETIVO DE LIMITAR RESPONSABILIDADES
+            OU ALTERAR DIREITOS DE CONSUMIDOR QUE, DE ACORDO COM A LEI APLIC&Aacute;VEL, N&Atilde;O PODEM SER LIMITADOS
+            OU ALTERADOS. &nbsp; &nbsp; </span></p>
+    <p class="c1"><span class="c0">&nbsp;</span></p>
+    <p class="c1"><span class="c0">8.3 &nbsp; &nbsp;O Desenvolvedor n&atilde;o se responsabiliza, por acidentes (p.ex.
+            tor&ccedil;&otilde;es, quedas, distens&otilde;es musculares, contus&otilde;es) ou mal-estar (p.ex. desmaio,
+            insufici&ecirc;ncia de ar, convuls&otilde;es, paradas card&iacute;acas, tonturas, morte s&uacute;bita)
+            ocorridos durante o per&iacute;odo da Loca&ccedil;&atilde;o e da realiza&ccedil;&atilde;o de Partidas. O
+            Desenvolvedor n&atilde;o disponibiliza qualquer seguro em benef&iacute;cio dos usu&aacute;rios contra
+            qualquer consequ&ecirc;ncia prejudicial de uma partida ou loca&ccedil;&atilde;o. todos e quaisquer
+            incidentes ocorridos em fun&ccedil;&atilde;o de uma partida ou de uma loca&ccedil;&atilde;o ser&atilde;o de
+            responsabilidade do usu&aacute;rio ou do ofertante, conforme o caso concreto. o usu&aacute;rio reconhece
+            expressamente que, pela natureza dos servi&ccedil;os do Trivella, o desenvolvedor n&atilde;o tem qualquer
+            responsabilidade, objetiva ou subjetiva, por fatos ou atos que ocorram em uma partida e/ou durante uma
+            loca&ccedil;&atilde;o. &nbsp; &nbsp; </span></p>
+    <p class="c1 c4"><span class="c0"></span></p>
+    <p class="c1 c4"><span class="c0 c7"></span></p>
+    <p class="c1 c4"><span class="c0"></span></p>
+    <p class="c1"><span class="c2">9. INDENIZA&Ccedil;&Atilde;O</span></p>
+    <p class="c1 c4"><span class="c0"></span></p>
+    <p class="c1"><span class="c0">9.1 &nbsp; &nbsp;Voc&ecirc; concorda em isentar, defender, indenizar, e manter indene
+            o Desenvolvedor, e seus diretores, conselheiros, funcion&aacute;rios e agentes, mantendo-nos livres de danos
+            por e em raz&atilde;o de qualquer reclama&ccedil;&atilde;o, responsabilidade, danos, preju&iacute;zos e
+            despesas provenientes de, ou de qualquer modo relacionadas com, (i) sua viola&ccedil;&atilde;o destes
+            Termos, (ii) seu uso indevido da Plataforma Trivella ou de quaisquer Servi&ccedil;os do Trivella, (iii) sua
+            intera&ccedil;&atilde;o com qualquer Membro, incluindo, sem limita&ccedil;&otilde;es, danos,
+            preju&iacute;zos e les&otilde;es de qualquer natureza relacionados a uma Partida, uma Loca&ccedil;&atilde;o
+            ou qualquer intera&ccedil;&atilde;o entre os Membros, (iv) recolhimento de tributos incidentes, ou (v) sua
+            viola&ccedil;&atilde;o de quaisquer leis, regulamenta&ccedil;&otilde;es ou direitos de terceiros. &nbsp;
+            &nbsp; &nbsp;</span></p>
+    <p class="c1 c4"><span class="c0"></span></p>
+    <p class="c1 c4"><span class="c0"></span></p>
+    <p class="c1"><span class="c2">10. A QUEM PERTENCEM OS CONTE&Uacute;DOS DISPON&Iacute;VEIS NO TRIVELLA?</span></p>
+    <p class="c1 c4"><span class="c0"></span></p>
+    <p class="c1"><span class="c0">10.1 &nbsp; &nbsp;Chamamos de CONTE&Uacute;DO todas as imagens, marcas, textos e
+            quaisquer outros itens, gr&aacute;ficos ou n&atilde;o, do Trivella. Todo e qualquer CONTE&Uacute;DO deste
+            Aplicativo pertence &uacute;nica e exclusivamente ao Desenvolvedor, que det&eacute;m, direta ou
+            indiretamente, todos os direitos autorais e direitos de propriedade intelectual sobre o mesmo. &nbsp; &nbsp;
+        </span></p>
+    <p class="c1"><span class="c0">&nbsp;</span></p>
+    <p class="c1"><span class="c0">10.2 &nbsp; &nbsp;Ademais, Usu&aacute;rios desde j&aacute; declaram sua ci&ecirc;ncia
+            e concord&acirc;ncia a respeito de que pertencer&atilde;o ao Desenvolvedor qualquer CONTE&Uacute;DO
+            porventura enviado pelos Usu&aacute;rios. Da mesma forma, qualquer marca, logotipo ou marca de
+            servi&ccedil;o contido no CONTE&Uacute;DO tamb&eacute;m &eacute; uma marca comercial registrada ou
+            licenciada pela ou para o Desenvolvedor. &nbsp; &nbsp; </span></p>
+    <p class="c1"><span class="c0">&nbsp;</span></p>
+    <p class="c1"><span class="c0">10.3 &nbsp; &nbsp;&Eacute; estritamente proibido o uso do CONTE&Uacute;DO sem a
+            permiss&atilde;o por escrito do Desenvolvedor. &nbsp; &nbsp; </span></p>
+    <p class="c1"><span class="c0">&nbsp;</span></p>
+    <p class="c1"><span class="c0">10.4 &nbsp; &nbsp;O Desenvolvedor reserva-se no direito de tomar todas e quaisquer
+            medidas que julgar cab&iacute;vel ou aplic&aacute;vel para garantir seus direitos de propriedade intelectual
+            e industrial na extens&atilde;o m&aacute;xima permitida pela legisla&ccedil;&atilde;o aplic&aacute;vel,
+            nacional e/ou estrangeira, inclusive por meio de processo criminal. &nbsp; &nbsp; </span></p>
+    <p class="c1"><span class="c0">&nbsp;</span></p>
+    <p class="c1"><span class="c0">10.5 &nbsp; &nbsp;Os dados pessoais enviados pelos Usu&aacute;rios para participar da
+            intera&ccedil;&atilde;o definida como Servi&ccedil;o do Trivella &nbsp;ser&atilde;o tratados da forma
+            descrita na Pol&iacute;tica de Privacidade do Trivella. &nbsp; &nbsp; &nbsp; </span></p>
+    <p class="c1"><span class="c0">&nbsp;</span></p>
+    <p class="c1"><span class="c0">10.6 &nbsp; &nbsp;Qualquer cess&atilde;o ou licen&ccedil;a acima aludidas ou
+            n&atilde;o, s&atilde;o gratuitas e sem contrapartida por parte do Desenvolvedor. &nbsp; &nbsp; </span></p>
+    <p class="c1"><span class="c0">&nbsp;</span></p>
+    <p class="c1"><span class="c5">10.7 &nbsp;O desenvolvedor </span><span class="c6">N&Atilde;O FISCALIZA </span><span
+            class="c5">todos os conte&uacute;dos veiculados no aplicativo, incluindo propagandas. A
+            veicula&ccedil;&atilde;o de propagandas no aplicativo n&atilde;o implica em endosso ou garantia por parte do
+            desenvolvedor quanto &agrave; qualidade, veracidade ou legalidade dos produtos ou servi&ccedil;os
+            anunciados. &Eacute; facultado aos usu&aacute;rios entrar em contato com o desenvolvedor para reportar
+            abusos e viola&ccedil;&otilde;es de direitos relacionados a conte&uacute;dos publicit&aacute;rios ou
+            condutas inadequadas. O desenvolvedor tomar&aacute; medidas apropriadas, conforme sua pol&iacute;tica
+            interna, para abordar quaisquer preocupa&ccedil;&otilde;es relatadas pelos usu&aacute;rios. </span><span
+            class="c6">A INTERA&Ccedil;&Atilde;O COM AN&Uacute;NCIOS NO APLICATIVO &Eacute; DE RESPONSABILIDADE
+            EXCLUSIVA DO USU&Aacute;RIO, E QUALQUER TRANSA&Ccedil;&Atilde;O OU RELA&Ccedil;&Atilde;O ESTABELECIDA COM
+            ANUNCIANTES &Eacute; REALIZADA POR SUA CONTA E RISCO.</span><span class="c5 c12">&nbsp;</span><span
+            class="c6">O DESENVOLVEDOR N&Atilde;O SE RESPONSABILIZA POR DANOS, PREJU&Iacute;ZOS OU
+            INSATISFA&Ccedil;&Atilde;O RESULTANTES DE TRANSA&Ccedil;&Otilde;ES COM ANUNCIANTES NO APLICATIVO. AO
+            UTILIZAR O APLICATIVO, OS MEMBROS CONCORDAM EM ISENTAR O DESENVOLVEDOR DE QUALQUER RESPONSABILIDADE
+            RELACIONADA &Agrave; VEICULA&Ccedil;&Atilde;O DE PROPAGANDAS E COMPREENDEM QUE A FISCALIZA&Ccedil;&Atilde;O
+            DOS CONTE&Uacute;DOS &Eacute; LIMITADA, SENDO ESSENCIAL A COMUNICA&Ccedil;&Atilde;O DE QUAISQUER ABUSOS PARA
+            UMA RESPOSTA EFICIENTE POR PARTE DO DESENVOLVEDOR.</span></p>
+    <p class="c1 c4"><span class="c0 c7"></span></p>
+    <p class="c1"><span class="c0">10.8 &nbsp; &nbsp;O Desenvolvedor poder&aacute; limitar o n&uacute;mero de
+            conex&otilde;es que voc&ecirc; possa ter com outros Usu&aacute;rios e poder&aacute;, em algumas
+            circunst&acirc;ncias, proibir voc&ecirc; de contatar outros Usu&aacute;rios ou que estes o contatem.
+            N&atilde;o ser&aacute; disponibilizado qualquer meio de contato de outros Membros que n&atilde;o as
+            informa&ccedil;&otilde;es por eles publicadas no Aplicativo. &nbsp; &nbsp; </span></p>
+    <p class="c1"><span class="c0">&nbsp;</span></p>
+    <p class="c1"><span class="c0">10.9 &nbsp; &nbsp;Sem preju&iacute;zo das demais disposi&ccedil;&otilde;es aqui
+            contidas e de outras medidas que entender cab&iacute;veis, o Desenvolvedor poder&aacute; advertir, suspender
+            ou cancelar, tempor&aacute;ria ou definitivamente, o cadastro do Usu&aacute;rio, a qualquer tempo, iniciando
+            as a&ccedil;&otilde;es judiciais cab&iacute;veis e/ou suspendendo a execu&ccedil;&atilde;o destes Termos se
+            o Usu&aacute;rio n&atilde;o cumprir qualquer dispositivo aqui previsto e demais pol&iacute;ticas do
+            Trivella. </span></p>
+    <p class="c1 c4"><span class="c0"></span></p>
+    <p class="c1 c4"><span class="c2"></span></p>
+    <p class="c1"><span class="c2">11. O QUE VOC&Ecirc; N&Atilde;O PODE FAZER COM E NO TRIVELLA?</span></p>
+    <p class="c1 c4"><span class="c0"></span></p>
+    <p class="c1"><span class="c0">11.1 &nbsp; &nbsp;O Desenvolvedor apenas disp&otilde;e ao Usu&aacute;rio a
+            possibilidade de utilizar o Trivella para participa&ccedil;&atilde;o nos servi&ccedil;os disponibilizados no
+            mesmo, ficando expressamente proibido as seguintes a&ccedil;&otilde;es por parte do usu&aacute;rio: &nbsp;
+            &nbsp;</span></p>
+    <p class="c1"><span class="c0">a) Declarar sua afilia&ccedil;&atilde;o, com intuito comercial e/ou
+            publicit&aacute;rio ao Desenvolvedor ou ao Trivella, ou declarar ou fazer crer que o Desenvolvedor endossa
+            as declara&ccedil;&otilde;es feitas por voc&ecirc;; </span></p>
+    <p class="c1"><span class="c0">b) Usar o Trivella para publicidade ou qualquer outra solicita&ccedil;&atilde;o
+            comercial sem a expressa autoriza&ccedil;&atilde;o do Desenvolvedor; </span></p>
+    <p class="c1"><span class="c0">c) Usar o Trivella para publicar ou transmitir v&iacute;rus, worm, cavalo de
+            tr&oacute;ia, easter egg, time bomb, spyware ou outro c&oacute;digo, arquivo ou programa de computador que
+            seja prejudicial ou invasivo ou cuja inten&ccedil;&atilde;o seja danificar ou tomar controle da
+            opera&ccedil;&atilde;o ou monitorar o uso de qualquer hardware, software ou equipamento, seja do
+            Desenvolvedor ou de terceiros; &nbsp; &nbsp;</span></p>
+    <p class="c1"><span class="c0">d) Usar o Trivella &nbsp;para violar quaisquer direitos legais de terceiros, para
+            obter ou coletar informa&ccedil;&otilde;es de identifica&ccedil;&atilde;o pessoal dos usu&aacute;rios do
+            Trivella;</span></p>
+    <p class="c1"><span class="c0">e) Interferir ou interromper na opera&ccedil;&atilde;o do Trivella &nbsp;ou dos
+            servidores, ou de violar quaisquer requisitos, procedimentos, pol&iacute;ticas ou
+            regulamenta&ccedil;&otilde;es de quaisquer redes que sirvam para dar suporte ao Trivella ou que sirvam como
+            forma de divulga&ccedil;&atilde;o ou distribui&ccedil;&atilde;o deste; &nbsp; &nbsp;</span></p>
+    <p class="c1"><span class="c0">f) Utilizar de perfis fakes (falsos) para obter quaisquer vantagens il&iacute;citas
+            na utiliza&ccedil;&atilde;o do Trivella, sob pena de falsidade ideol&oacute;gica, arcando com as
+            consequ&ecirc;ncias administrativas e legais cab&iacute;veis; &nbsp; &nbsp;</span></p>
+    <p class="c1"><span class="c0">g) Modificar, adaptar, converter ou reverter a engenharia, descompilar ou desmontar
+            qualquer parte do APLICATIVO, seja em seu front-end ou em seu back-end; &nbsp; &nbsp;</span></p>
+    <p class="c1"><span class="c0">h) Utilizar qualquer forma que possa ser considerada fraudulenta para obter vantagens
+            para si ou para outrem no Trivella &nbsp;ou a partir dele, cabendo ao Desenvolvedor, a seu exclusivo
+            crit&eacute;rio, em caso de suspeita de fraude na utiliza&ccedil;&atilde;o deste Aplicativo por parte de
+            quaisquer Usu&aacute;rios, a decis&atilde;o de interromper e/ou excluir a utiliza&ccedil;&atilde;o dos
+            servi&ccedil;os dispon&iacute;veis no Trivella &nbsp;para este(s) Usu&aacute;rio(s); &nbsp; &nbsp;</span>
+    </p>
+    <p class="c1"><span class="c0">i) Utilizar o chat para compartilhar quaisquer informa&ccedil;&otilde;es ou dados
+            il&iacute;citos e/ou nocivos, de forma concreta ou em potencial, ao Desenvolvedor e/ou terceiros de qualquer
+            esp&eacute;cie, tais como demais usu&aacute;rios e/ou pessoas atreladas direta, indireta ou n&atilde;o
+            atreladas de forma alguma ao Trivella. &nbsp; &nbsp;</span></p>
+    <p class="c1"><span class="c0">j) Entrar em contato com os quaisquer dos demais Membros em inobserv&acirc;ncia ao
+            presente termo de uso e pol&iacute;tica de privacidade, incluindo, mas n&atilde;o se limitando, por meio
+            telef&ocirc;nico e chat, com objetivo ou fins ilegais, imorais, anti&eacute;ticos, constrangedores, ou que
+            de qualquer forma possa constranger ou violar a intimidade, a privacidade ou os direitos dos demais Membros.
+            Qualquer comportamento acima descrito, incluindo ass&eacute;dio ou bullying para com os demais Membros,
+            ser&aacute; devidamente reportado &agrave;s autoridades competentes e o Membro banido do Aplicativo. &nbsp;
+            &nbsp; </span></p>
+    <p class="c1"><span class="c0">&nbsp;</span></p>
+    <p class="c1"><span class="c0">11.2 &nbsp; &nbsp;O conte&uacute;do disponibilizado pelos usu&aacute;rios
+            atrav&eacute;s do Trivella, incluindo, mas n&atilde;o se limitando a dados pessoais fornecidos para
+            utiliza&ccedil;&atilde;o do Trivella, seguir&aacute; as normas dispostas aqui, assim como quaisquer normas e
+            leis vigentes. &nbsp; &nbsp; </span></p>
+    <p class="c1"><span class="c0">&nbsp;</span></p>
+    <p class="c1"><span class="c0">11.3 &nbsp; &nbsp;O n&atilde;o atendimento ou descumprimento de quaisquer
+            disposi&ccedil;&otilde;es inseridas neste documento acarretar&aacute; na interrup&ccedil;&atilde;o dos
+            Servi&ccedil;os do Trivella e exclus&atilde;o imediata de quem lhe der causa e/ou for beneficiado, direta ou
+            indiretamente, de tal conduta. &nbsp; &nbsp; </span></p>
+    <p class="c1"><span class="c0">&nbsp;</span></p>
+    <p class="c1"><span class="c0">11.4 &nbsp; &nbsp;Voc&ecirc; pode utilizar de publicidade simples, n&atilde;o
+            comercial, para convidar amigos ou terceiros para juntar-se &agrave; sua rede de pessoas no Trivella ,
+            compartilhando o uso, nome e demais vantagens do Trivella, sempre sem cunho comercial, respeitando o
+            disposto neste Termo. </span></p>
+    <p class="c1 c4"><span class="c0"></span></p>
+    <p class="c1"><span class="c5">&nbsp;</span><span class="c8">12. PROPAGANDAS:</span></p>
+    <p class="c1 c4"><span class="c0"></span></p>
+    <p class="c1"><span class="c5">12.1</span><span class="c5 c10">&nbsp;Ao optar por utilizar a vers&atilde;o gratuita
+            do Trivella, voc&ecirc; consente com a exibi&ccedil;&atilde;o de an&uacute;ncios de terceiros durante a
+            utiliza&ccedil;&atilde;o do aplicativo. Esses an&uacute;ncios desempenham um papel fundamental na
+            sustenta&ccedil;&atilde;o da vers&atilde;o gratuita.</span></p>
+    <p class="c1 c4"><span class="c0"></span></p>
+    <p class="c1"><span class="c5 c10">12.2 O desenvolvedor </span><span class="c6 c10">N&Atilde;O FISCALIZA
+        </span><span class="c5 c10">todos os conte&uacute;dos veiculados no aplicativo, incluindo propagandas. A
+            veicula&ccedil;&atilde;o de propagandas no aplicativo n&atilde;o implica em endosso ou garantia por parte do
+            desenvolvedor quanto &agrave; qualidade, veracidade ou legalidade dos produtos ou servi&ccedil;os
+            anunciados. &Eacute; facultado aos usu&aacute;rios entrar em contato com o desenvolvedor para reportar
+            abusos e viola&ccedil;&otilde;es de direitos relacionados a conte&uacute;dos publicit&aacute;rios ou
+            condutas inadequadas. O desenvolvedor tomar&aacute; medidas apropriadas, conforme sua pol&iacute;tica
+            interna, para abordar quaisquer preocupa&ccedil;&otilde;es relatadas pelos usu&aacute;rios.</span></p>
+    <p class="c1 c4"><span class="c5 c10 c11"></span></p>
+    <p class="c1"><span class="c5 c10 c14">12.3</span><span class="c3">&nbsp;A INTERA&Ccedil;&Atilde;O COM
+            AN&Uacute;NCIOS NO APLICATIVO &Eacute; DE RESPONSABILIDADE EXCLUSIVA DO USU&Aacute;RIO, E QUALQUER
+            TRANSA&Ccedil;&Atilde;O OU RELA&Ccedil;&Atilde;O ESTABELECIDA COM ANUNCIANTES &Eacute; REALIZADA POR SUA
+            CONTA E RISCO.</span><span class="c5 c14 c10">&nbsp;</span><span class="c3">O DESENVOLVEDOR N&Atilde;O SE
+            RESPONSABILIZA POR DANOS, PREJU&Iacute;ZOS OU INSATISFA&Ccedil;&Atilde;O RESULTANTES DE
+            TRANSA&Ccedil;&Otilde;ES COM ANUNCIANTES NO APLICATIVO. AO UTILIZAR O APLICATIVO, OS MEMBROS CONCORDAM EM
+            ISENTAR O DESENVOLVEDOR DE QUALQUER RESPONSABILIDADE RELACIONADA &Agrave; VEICULA&Ccedil;&Atilde;O DE
+            PROPAGANDAS E COMPREENDEM QUE A FISCALIZA&Ccedil;&Atilde;O DOS CONTE&Uacute;DOS &Eacute; LIMITADA, SENDO
+            ESSENCIAL A COMUNICA&Ccedil;&Atilde;O DE QUAISQUER ABUSOS PARA UMA RESPOSTA EFICIENTE POR PARTE DO
+            DESENVOLVEDOR.</span></p>
+    <p class="c1 c4"><span class="c0"></span></p>
+    <p class="c1 c4"><span class="c0"></span></p>
+    <p class="c1"><span class="c2">13. RECURSOS PAGOS</span></p>
+    <p class="c1 c4"><span class="c0"></span></p>
+    <p class="c1"><span class="c0">13.1 Certos recursos do Trivella est&atilde;o dispon&iacute;veis apenas mediante
+            pagamento. Ao adquirir esses recursos, voc&ecirc; concorda com os termos de pagamento e as
+            condi&ccedil;&otilde;es espec&iacute;ficas associadas a cada recurso premium.</span></p>
+    <p class="c1 c4"><span class="c0"></span></p>
+    <p class="c1"><span class="c2">14. PAGAMENTOS</span></p>
+    <p class="c1 c4"><span class="c0"></span></p>
+    <p class="c1"><span class="c0">14.1 Os pagamentos s&atilde;o processados atrav&eacute;s de m&eacute;todos seguros.
+            Certifique-se de fornecer informa&ccedil;&otilde;es precisas durante o processo de pagamento. O Trivella
+            n&atilde;o se responsabiliza por informa&ccedil;&otilde;es incorretas fornecidas pelos
+            usu&aacute;rios.</span></p>
+    <p class="c1 c4"><span class="c0"></span></p>
+    <p class="c1"><span class="c5">14.2 </span><span class="c5 c10">O Trivella n&atilde;o ser&aacute; respons&aacute;vel
+            por quaisquer cobran&ccedil;as n&atilde;o autorizadas que possam ocorrer devido ao fornecimento de
+            informa&ccedil;&otilde;es imprecisas ou &agrave; perda de informa&ccedil;&otilde;es de pagamento por parte
+            do usu&aacute;rio. Recomendamos que voc&ecirc; mantenha suas informa&ccedil;&otilde;es de pagamento de forma
+            segura e notifique-nos imediatamente em caso de qualquer atividade suspeita em sua conta.</span></p>
+    <p class="c1 c4"><span class="c0"></span></p>
+    <p class="c1"><span class="c6 c10">14.3 O Trivella reserva-se o direito de alterar os pre&ccedil;os de seus recursos
+            premium e as condi&ccedil;&otilde;es de pagamento a qualquer momento.</span><span class="c5 c10">&nbsp;Os
+            usu&aacute;rios ser&atilde;o notificados com anteced&ecirc;ncia sobre quaisquer altera&ccedil;&otilde;es
+            significativas nos termos de pagamento. O uso cont&iacute;nuo dos recursos premium ap&oacute;s tais
+            altera&ccedil;&otilde;es ser&aacute; considerado como aceita&ccedil;&atilde;o dos novos termos.</span></p>
+    <p class="c1 c4"><span class="c0"></span></p>
+    <p class="c1"><span class="c0">14.4 O n&atilde;o pagamento oportuno pelos recursos premium resultar&aacute; na
+            suspens&atilde;o ou t&eacute;rmino do acesso a esses recursos. O Trivella n&atilde;o ser&aacute;
+            respons&aacute;vel por quaisquer danos ou perdas decorrentes da suspens&atilde;o ou t&eacute;rmino devido
+            &agrave; inadimpl&ecirc;ncia do usu&aacute;rio.</span></p>
+    <p class="c1 c4"><span class="c0"></span></p>
+    <p class="c1"><span class="c2">15. DEMAIS RESPONSABILIDADES DO USU&Aacute;RIO:</span></p>
+    <p class="c1"><span class="c0">&nbsp; &nbsp; </span></p>
+    <p class="c1"><span class="c0">15.1 &nbsp; &nbsp;O Usu&aacute;rio que acessar e utilizar o Trivella concorda com o
+            previsto nestes Termos em decorr&ecirc;ncia de sua livre iniciativa de utilizar e acessar os dados e
+            utilizar os servi&ccedil;os disponibilizados no Trivella. &nbsp; &nbsp; </span></p>
+    <p class="c1"><span class="c0">&nbsp;</span></p>
+    <p class="c1"><span class="c0">15.2 &nbsp; &nbsp;O Usu&aacute;rio &eacute; respons&aacute;vel por sua Conta, o que
+            significa dizer que este &eacute; respons&aacute;vel por todos os dados enviados para o Desenvolvedor,
+            presumindo-se que o Usu&aacute;rio, por sua livre iniciativa, aceitou todos os termos deste documento. O
+            Usu&aacute;rio concorda que, para a utiliza&ccedil;&atilde;o dos Servi&ccedil;os do Trivella,
+            disponibilizar&aacute; seu n&uacute;mero de celular para cadastro e este ser&aacute; vis&iacute;vel em seu
+            perfil por outros Membros e eventualmente por terceiros, conforme descrito detalhadamente na pol&iacute;tica
+            de privacidade. &nbsp; &nbsp; </span></p>
+    <p class="c1"><span class="c0">&nbsp;</span></p>
+    <p class="c1"><span class="c0">15.3 &nbsp; &nbsp;Se tomar conhecimento de qualquer utiliza&ccedil;&atilde;o por
+            terceiros da sua Conta, o Usu&aacute;rio dever&aacute; notificar imediatamente o Desenvolvedor, que
+            tomar&aacute; as medidas cab&iacute;veis para solucionar o caso. &nbsp; &nbsp; </span></p>
+    <p class="c1"><span class="c0">&nbsp;</span></p>
+    <p class="c1"><span class="c0">15.4 &nbsp; &nbsp;O Usu&aacute;rio cede para o Desenvolvedor as
+            informa&ccedil;&otilde;es e dados necess&aacute;rios de sua Conta, independente da natureza e forma, as
+            quais ser&atilde;o acessadas automaticamente pelo Aplicativo e pelo Desenvolvedor. &nbsp; &nbsp; </span></p>
+    <p class="c1"><span class="c0">&nbsp;</span></p>
+    <p class="c1"><span class="c0">15.5 &nbsp; &nbsp;A cess&atilde;o acima definida &eacute; gratuita e sem
+            contrapartida por parte do Desenvolvedor.</span></p>
+    <p class="c1"><span class="c0">&nbsp;</span></p>
+    <p class="c1"><span class="c0">15.6 &nbsp; &nbsp;Todas as licen&ccedil;as, autoriza&ccedil;&otilde;es,
+            cess&otilde;es ou qualquer outra forma de concess&atilde;o do Usu&aacute;rio para o Desenvolvedor, previstas
+            nestes Termos, se d&atilde;o de maneira irrevog&aacute;vel e irretrat&aacute;vel, obedecendo aos prazos
+            limites estabelecidos nestes Termos. &nbsp; &nbsp; </span></p>
+    <p class="c1"><span class="c0">&nbsp;</span></p>
+    <p class="c1"><span class="c0">15.7 &nbsp; &nbsp;Ademais, &eacute; de inteira e exclusiva responsabilidade do
+            Usu&aacute;rio administrador de um evento/partida a sua realiza&ccedil;&atilde;o, negocia&ccedil;&atilde;o,
+            reserva e pagamentos aos Ofertantes quando da realiza&ccedil;&atilde;o de uma Loca&ccedil;&atilde;o. O
+            Trivella &nbsp;t&atilde;o somente busca facilitar a jun&ccedil;&atilde;o de pessoas afins, no objetivo de
+            praticar o esporte, bem como conect&aacute;-los com um prestador de servi&ccedil;o, locador de quadras ou
+            campos esportivos, motivo pelo qual os Membros responsabilizam-se integralmente e exclusivamente acerca de
+            todas obriga&ccedil;&otilde;es assumidas com demais Membros advindas da
+            intera&ccedil;&atilde;o/servi&ccedil;o ofertado pelo Trivella. &nbsp; &nbsp; </span></p>
+    <p class="c1"><span class="c0">&nbsp;</span></p>
+    <p class="c1 c4"><span class="c0"></span></p>
+    <p class="c1"><span class="c2">16. COMO TERMINA A RELA&Ccedil;&Atilde;O ESTABELECIDA NESTE APLICATIVO ENTRE
+            USU&Aacute;RIO E DESENVOLVEDOR</span></p>
+    <p class="c1 c4"><span class="c0"></span></p>
+    <p class="c1"><span class="c0">16.1 &nbsp; &nbsp;Estes Termos continuar&atilde;o a ser aplic&aacute;veis enquanto o
+            Aplicativo estiver dispon&iacute;vel. Se voc&ecirc; quiser encerrar a rela&ccedil;&atilde;o existente com o
+            Desenvolvedor em virtude destes Termos, pode faz&ecirc;-lo mediante exclus&atilde;o de sua Conta, que deve
+            ser solicitada pelo Fale Conosco disponibilizado dentro do aplicativo, desinstalando-o ou simplesmente
+            deixando de acess&aacute;-lo e utiliz&aacute;-lo. Sua rela&ccedil;&atilde;o com o Desenvolvedor se
+            extinguir&aacute; prontamente ap&oacute;s a finaliza&ccedil;&atilde;o da exclus&atilde;o de sua Conta.
+            &nbsp; &nbsp; &nbsp;</span></p>
+    <p class="c1"><span class="c0">&nbsp;</span></p>
+    <p class="c1"><span class="c0">16.2 &nbsp; &nbsp;O Desenvolvedor pode, a qualquer momento, encerrar a
+            rela&ccedil;&atilde;o existente com voc&ecirc; decorrente destes Termos nas seguintes hip&oacute;teses:
+            &nbsp; &nbsp; &nbsp; &nbsp;</span></p>
+    <p class="c1"><span class="c0">a) Se voc&ecirc; tiver violado qualquer cl&aacute;usula destes Termos ou agir de
+            forma que claramente mostre ou evidencie que n&atilde;o pretende ou n&atilde;o pode cumprir as
+            cl&aacute;usulas estabelecidas aqui ou atue de qualquer maneira ilegal, anti&eacute;tica, imoral ou viole os
+            direitos de intimidade e personalidade dos demais Membros; &nbsp; &nbsp;</span></p>
+    <p class="c1"><span class="c0">b) Se tal for exigido do Desenvolvedor por lei ou decis&atilde;o judicial; &nbsp;
+            &nbsp;</span></p>
+    <p class="c1"><span class="c0">c) Se por iniciativa do Desenvolvedor, este decidir encerrar o Aplicativo total ou
+            parcialmente, sem necessidade de notifica&ccedil;&atilde;o ou justifica&ccedil;&atilde;o, a qualquer tempo
+            para o Usu&aacute;rio; &nbsp; &nbsp;</span></p>
+    <p class="c1"><span class="c0">d) Por decis&atilde;o unilateral do Desenvolvedor em excluir o Usu&aacute;rio,
+            n&atilde;o necessitando justificar ou revelar sua motiva&ccedil;&atilde;o para tanto; ou &nbsp;
+            &nbsp;</span></p>
+    <p class="c1"><span class="c0">e) Nos demais casos previstos em cl&aacute;usulas espec&iacute;ficas destes Termos.
+            &nbsp; &nbsp; </span></p>
+    <p class="c1"><span class="c0">&nbsp;</span></p>
+    <p class="c1"><span class="c0">16.3 &nbsp; &nbsp;No caso de t&eacute;rmino da disponibiliza&ccedil;&atilde;o do
+            Aplicativo total ou parcialmente, por iniciativa do Desenvolvedor, este n&atilde;o estar&aacute; obrigado a
+            manter, fornecer, devolver ou ressarcir, qualquer esp&eacute;cie de conte&uacute;do, dados ou
+            informa&ccedil;&otilde;es repassadas por voc&ecirc;. &nbsp; &nbsp; </span></p>
+    <p class="c1"><span class="c0">&nbsp;</span></p>
+    <p class="c1"><span class="c0">16.4 &nbsp; &nbsp;Em todos os casos previstos nestes Termos, seja por rescis&atilde;o
+            motivada ou imotivada de qualquer das partes, por exclus&atilde;o do Usu&aacute;rio do Aplicativo ou pelo
+            encerramento das atividades deste, as informa&ccedil;&otilde;es, imagens, textos, arquivos, atividades,
+            intera&ccedil;&otilde;es ou informa&ccedil;&otilde;es do Aplicativo, ser&atilde;o perdidos em sua
+            totalidade, n&atilde;o cabendo ao Usu&aacute;rio qualquer esp&eacute;cie de indeniza&ccedil;&atilde;o ou
+            compensa&ccedil;&atilde;o, nem recupera&ccedil;&atilde;o. &nbsp; &nbsp; </span></p>
+    <p class="c1 c4"><span class="c0"></span></p>
+    <p class="c1"><span class="c0">&nbsp;</span></p>
+    <p class="c1"><span class="c2">17. DEMAIS CONSIDERA&Ccedil;&Otilde;ES</span></p>
+    <p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp;</span></p>
+    <p class="c1"><span class="c0">17.1 &nbsp; &nbsp;A qualquer momento poder&atilde;o ser modificados os
+            conte&uacute;dos e ferramentas do Trivella sem qualquer aviso pr&eacute;vio ao Usu&aacute;rio. Estas
+            altera&ccedil;&otilde;es ficar&atilde;o automaticamente vinculadas e subordinadas a estes Termos de Uso.
+            &nbsp; &nbsp;</span></p>
+    <p class="c1"><span class="c0">&nbsp;</span></p>
+    <p class="c1"><span class="c0">17.2 &nbsp; &nbsp;O Usu&aacute;rio, ao dar aceite a estes Termos, declara que goza de
+            plenas condi&ccedil;&otilde;es de sa&uacute;de &agrave; pr&aacute;tica esportiva. &nbsp; &nbsp;
+            &nbsp;</span></p>
+    <p class="c1"><span class="c0">&nbsp;</span></p>
+    <p class="c1"><span class="c0">17.3 &nbsp; &nbsp;O Desenvolvedor n&atilde;o se responsabiliza por acidentes (p.ex.
+            tor&ccedil;&otilde;es, quedas, distens&otilde;es musculares, contus&otilde;es) ou mal-estar (p.ex. desmaio,
+            insufici&ecirc;ncia de ar, convuls&otilde;es, paradas card&iacute;acas, tonturas, morte s&uacute;bita)
+            ocorridos durante o per&iacute;odo da realiza&ccedil;&atilde;o de Partidas. &nbsp; &nbsp; </span></p>
+    <p class="c1"><span class="c0">&nbsp;</span></p>
+    <p class="c1"><span class="c0">&nbsp;</span></p>
+    <p class="c1 c4"><span class="c2"></span></p>
+    <p class="c1"><span class="c2">18. MUDAN&Ccedil;AS EM NOSSOS TERMOS DE USO</span></p>
+    <p class="c1 c4"><span class="c2"></span></p>
+    <p class="c1"><span class="c0">18.1 &nbsp; &nbsp;Queremos que voc&ecirc; entenda que este documento &eacute;
+            importante para que voc&ecirc; tenha plena satisfa&ccedil;&atilde;o ao usar os Servi&ccedil;os do Trivella.
+            Assim, o Desenvolvedor, reservando-se no direito de alterar ou remover estes Termos a seu crit&eacute;rio e
+            sem pr&eacute;vio aviso, recomenda veementemente que voc&ecirc; visite esta &aacute;rea periodicamente para
+            manter-se informado sobre quaisquer altera&ccedil;&otilde;es, que ser&atilde;o publicadas aqui. &nbsp;
+            &nbsp; &nbsp;</span></p>
+    <p class="c1 c4"><span class="c0"></span></p>
+    <p class="c1"><span class="c0">18.2 &nbsp; &nbsp;Na medida do poss&iacute;vel informaremos, atrav&eacute;s de nossas
+            p&aacute;ginas nas redes ou no pr&oacute;prio Aplicativo, quaisquer altera&ccedil;&otilde;es nestes
+            documentos, mas, como dito acima, o controle acerca do conhecimento sobre tais altera&ccedil;&otilde;es
+            &eacute; de responsabilidade exclusiva do Usu&aacute;rio. &nbsp; &nbsp; </span></p>
+    <p class="c1 c4"><span class="c0"></span></p>
+    <p class="c1 c4"><span class="c2"></span></p>
+    <p class="c1"><span class="c2">19. FALE CONOSCO</span></p>
+    <p class="c1 c4"><span class="c0"></span></p>
+    <p class="c1"><span class="c0">19.1 &nbsp; &nbsp;Como dissemos no in&iacute;cio, entendemos que a leitura deste
+            documento, apesar de tentarmos sempre ser o mais claro e direto poss&iacute;vel, pode deixar algumas
+            d&uacute;vidas, quest&otilde;es em geral e at&eacute; mesmo sugest&otilde;es para serem compartilhadas por
+            voc&ecirc; para n&oacute;s. Assim, se voc&ecirc; quiser contatar o Desenvolvedor para fazer
+            coment&aacute;rios ou esclarecer d&uacute;vidas sobre este documento, por favor entre em contato conosco
+            atrav&eacute;s do nosso pr&oacute;prio aplicativo.</span></p>
+    <p class="c1 c4"><span class="c0"></span></p>
+    <div>
+        <p class="c15"><span class="c14 c10 c16">Jackson Hugo Bandeira De Fran&ccedil;a &ndash; CNPJ: 45.035.174/0001-28
+                &ndash; Todos os direitos reservados</span></p>
+    </div>
+</body>
+
+</html>
